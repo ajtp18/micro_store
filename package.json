@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Pagina de electronica",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index"
   },
   "author": "Shared",
   "license": "ISC",
