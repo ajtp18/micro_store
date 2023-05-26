@@ -3,8 +3,8 @@ import Item from "../models/Item.js";
 
 const updateRouter = Router();
 
-updateRouter.put("/item/:id", async (req, res) => {
-  const { id } = req.params;
+updateRouter.put("/items", async (req, res) => {
+  const { id } = req.query;
   const updates = req.body;
 
   try {

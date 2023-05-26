@@ -9,7 +9,7 @@ createRouter.post("/item/add", async (req, res) => {
     const item = Item({ ...req.body, serial: count + 1 });
     await item.save();
 
-    res.status(201).json({
+    return res.status(201).json({
       message: "Item created succefully!!",
     });
   } catch (error) {
