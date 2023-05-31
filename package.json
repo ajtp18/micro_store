@@ -10,7 +10,7 @@
   "author": "Shared",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.0.3",
+    "dotenv": "~16.1.0",
     "nodemon": "^2.0.22"
   },
   "dependencies": {

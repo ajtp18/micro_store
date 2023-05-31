@@ -1,0 +1,19 @@
+
+.Container-Main-Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Container-1-Card{
+  width: 250px;
+  height: 450px;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  text-align:justify
+}
