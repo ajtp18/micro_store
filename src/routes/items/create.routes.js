@@ -1,6 +1,5 @@
 import { Router } from "express";
-
-import Item from "../models/Item.js";
+import Item from "../../models/Item.js";
 const createRouter = Router();
 
 createRouter.post("/item/add", async (req, res) => {

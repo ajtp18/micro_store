@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Item from "../models/Item.js";
+import Item from "../../models/Item.js";
 
 const updateRouter = Router();
 
